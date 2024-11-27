@@ -1,13 +1,49 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
 
+body {
+  background-color: antiquewhite;
+}
+
 p {
   font-size: larger;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: black;
 }
 
 button {
   background-color: lightblue;
   font-size: 18px;
   border-radius: 10px;
+  margin: 10px;
+  height: 50px;
+  color: black;
 }
 
-button: hover;
+button:hover {
+  background-color: yellowgreen;
+}
+
+.layer {
+  background: #6bb8fb;
+  padding: 10px;
+  height: auto;
+  width: 800px;
+  margin-left: 550px;
+  border-radius: 10px;
+}
+
+.elements {
+  display: inline-grid;
+}
+
+img {
+  margin: 10px;
+  border-radius: 10px;
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+}
