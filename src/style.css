@@ -1,1 +1,13 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+p {
+  font-size: larger;
+}
+
+button {
+  background-color: lightblue;
+  font-size: 18px;
+  border-radius: 10px;
+}
+
+button: hover;
